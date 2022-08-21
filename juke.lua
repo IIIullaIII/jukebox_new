@@ -11,14 +11,17 @@ jukebox_list={
 "9",
 "10",
 "11",
-"12"
-
+"12",
+"13",
+"14",
+"15",
+"16"
 }
 
 jukeboxloop={}
 
-minetest.register_node("jukebox:juke", {
-    description = "Juke",
+minetest.register_node("jukeloopbox:juke", {
+    description = "Jukebox loop",
 	alpha=50,
 		drawtype = "mesh",
             mesh= "juke.obj",
